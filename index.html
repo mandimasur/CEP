@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Incrementar</button>
+    <div id="container"></div>
+    <scrip src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></scrip>
+    <scrip>
+        let contador =0;
+
+        $("#btn").click(Incrementar);
+
+        function Incrementar (){
+            contador++;
+
+            let p= $("<p></p>");
+            p.text("Adiconando texto dinamico:"+ contador);
+            $(#acontainer).append(p);
+        }
+    </scrip>
+    
+</body>
+</html>
