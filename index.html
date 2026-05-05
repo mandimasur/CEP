@@ -10,16 +10,16 @@
     <div id="container"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
-        let contador =0;
+        let contador = 0;
 
-        $("#btn").click(Incrementar);
+        $("#btn").click(incrementar);
 
-        function Incrementar (){
+        function incrementar (){
             contador++;
 
             let p= $("<p></p>");
             p.text("Adiconando texto dinamico:"+ contador);
-            $(#acontainer).append(p);
+            $(#container).append(p);
         }
     </script>
     
